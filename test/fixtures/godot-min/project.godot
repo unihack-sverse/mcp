@@ -1,0 +1,20 @@
+; Engine configuration file.
+; Minimal Godot 4 project used to prove the sverse-mcp scan heuristics.
+; config_version=5 is Godot 4 (Godot 3 writes config_version=4).
+
+config_version=5
+
+[application]
+
+config/name="Sverse Fixture"
+config/features=PackedStringArray("4.2", "GL Compatibility")
+run/main_scene="res://scenes/main.tscn"
+
+[display]
+
+window/size/viewport_width=1280
+window/size/viewport_height=720
+
+[rendering]
+
+renderer/rendering_method="gl_compatibility"

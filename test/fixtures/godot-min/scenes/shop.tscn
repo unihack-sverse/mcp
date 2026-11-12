@@ -1,0 +1,6 @@
+[gd_scene load_steps=1 format=3 uid="uid://bfixtureshop"]
+
+[node name="Shop" type="Control"]
+
+[node name="Title" type="Label" parent="."]
+text = "Coins & Cosmetics"

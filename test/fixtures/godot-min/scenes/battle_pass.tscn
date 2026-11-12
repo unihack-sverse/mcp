@@ -1,0 +1,6 @@
+[gd_scene load_steps=1 format=3 uid="uid://bfixturebattlepass"]
+
+[node name="BattlePass" type="Control"]
+
+[node name="Progress" type="ProgressBar" parent="."]
+max_value = 100.0
