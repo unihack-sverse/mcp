@@ -91,7 +91,8 @@ Runs exactly one step. Per-step inputs:
 |---|---|
 | `scan_project` | `{ engine?, engineVersion?, scenes?, surfaces?, monetizableObjects? }` — prefer `sverse_scan_project` |
 | `propose_items` | `{ draft: [...] }` — prefer `sverse_propose_items` |
-| `map_to_schema` | `{ overrides?: { [sku]: schemaId } }` || `create_item_pack` | `{}` — **refused until human approval** |
+| `map_to_schema` | `{ overrides?: { [sku]: schemaId } }` |
+| `create_item_pack` | `{}` — **refused until human approval** |
 | `install_sdk` | `{ sdk, version, filesChanged? }` |
 | `test_purchase` | `{}` |
 | `publish` | `{}` — prefer `sverse_publish` |
