@@ -173,7 +173,6 @@ async function offlineSchemas(): Promise<Schemas> {
 
 function statuses(map: Record<string, PublishJob['steps'][number]['status']>): PublishJob['steps'] {
   return ['scan_project', 'propose_items', 'map_to_schema', 'create_item_pack', 'install_sdk', 'test_purchase', 'publish']
-    .filter((step) => step in map || true)
     .map((step, index) => ({
       index: index + 1,
       step,
